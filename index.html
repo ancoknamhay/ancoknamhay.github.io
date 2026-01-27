@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Anime ID Converter</title>
+  <meta name="description" content="Anime ID Converter – A lightweight microservice for mapping MyAnimeList IDs to AniList IDs, fast and cache-friendly.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://ancoknamhay.github.io/anime-id-converter/">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background: #121212; color: #eee;
+    }
+    .banner {
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+      color: #fff;
+      border-radius: 0 0 20px 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+    .banner h1 {
+      margin: 0;
+      font-size: 3em;
+      font-weight: bold;
+    }
+    .banner p {
+      margin-top: 10px;
+      font-size: 1.2em;
+      opacity: 0.9;
+    }
+    .buttons {
+      margin-top: 20px;
+    }
+    .btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 24px;
+      background: #fff;
+      color: #2575fc;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #2575fc;
+      color: #fff;
+    }
+    .content {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="banner">
+    <h1>Anime ID Converter</h1>
+    <p>A lightweight microservice for mapping MyAnimeList IDs to AniList IDs — fast and cache‑friendly.</p>
+    <div class="buttons">
+      <a href="https://www.nontongo.win/anime/converter.html" class="btn">🚀 Try Live Demo</a>
+      <a href="https://github.com/ancoknamhay/anime-id-converter" class="btn">📂 View on GitHub</a>
+    </div>
+  </div>
+
+  <div class="content">
+    <h2>Overview</h2>
+    <p>In the anime developer community, one common challenge is dealing with different ID systems across platforms. MyAnimeList (MAL) and AniList both provide rich APIs, but their identifiers are not interchangeable.</p>
+    <p><strong>Anime ID Converter</strong> solves this problem with a simple, cache‑friendly microservice. It focuses on one job only: mapping IDs quickly and reliably.</p>
+
+    <h2>Features</h2>
+    <ul>
+      <li>🔄 MAL → AniList ID conversion</li>
+      <li>⚡ Fast lookups using JSON cache</li>
+      <li>📂 Split cache files per 100k MAL IDs for scalability</li>
+      <li>🛠️ Developer‑friendly JSON response</li>
+      <li>🧩 Fallback logic using Jikan API</li>
+    </ul>
+  </div>
+
+  <footer>
+    © 2026 Anime ID Converter · Open Source (MIT License)
+  </footer>
+</body>
+</html>
